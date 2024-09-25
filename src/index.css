@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(222, 116, 220) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #fff;
+}
+
+button {
+  background: rgb(222, 116, 220);
+  color: #fff;
+  padding: 0 45px;
+  border: 3px solid #0f0e0e;
+  border-radius: 25px;
+  height: 30%;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #f797d1;
+  color: #898787;
+}
